@@ -18,25 +18,26 @@
 <br />
 
 <h3>Usage :</h3>
-```js
-<script src="owldom.js"></script>
-<script>
+<code>
 
-  var domBoy = new OwlDOM();
+    <script src="owldom.js" />
+    
+    <script>
 
-  /// prototype of `grabElement()`
-  .grabElement(__TAG_NAME__, __ID__, __CLASS_LIST__)
+    var domBoy = new OwlDOM();
 
-  // below all are optionals, only one can give as expected
-  // __TAG_NAME__: h1, h3, div, etc.
-  // __ID__: id attribute of any element like foo, bar etc
-  // __CLASS_LIST__: [] classNames in array
+    /// prototype of `grabElement()`
+    .grabElement(__TAG_NAME__, __ID__, __CLASS_LIST__)
 
-  // to get all elements as a array even childs
-  console.log(domBoy.grabElement('*'));
+    // below all are optionals, only one can give as expected
+    // __TAG_NAME__: h1, h3, div, etc.
+    // __ID__: id attribute of any element like foo, bar etc
+    // __CLASS_LIST__: [] classNames in array
 
-  // to get h1 + element with specified Id + elements array with specified classNames
-  console.log(domBoy.grabElement('h1', 'unique-h2'), ['class1', 'class2']);
+    // to get all elements as a array even childs
+    console.log(domBoy.grabElement('*'));
 
-</script>
-```
+    // to get h1 + element with specified Id + elements array with specified classNames
+    console.log(domBoy.grabElement('h1', 'unique-h2'), ['class1', 'class2']);
+    </script>
+</code>
