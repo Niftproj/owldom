@@ -1,0 +1,30 @@
+{
+  "name": "owldom",
+  "version": "1.0.0",
+  "description": "Do not mess with DOM/Markups",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niftproj/owldom.git"
+  },
+  "keywords": [
+    "owldom",
+    "dom",
+    "nift",
+    "xml",
+    "html",
+    "markup",
+    "smalldom",
+    "fastdom",
+    "quickdom"
+  ],
+  "author": "Ashu Sharma (ashusharma.sigmadev@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Niftproj/owldom/issues"
+  },
+  "homepage": "https://github.com/Niftproj/owldom#readme"
+}
