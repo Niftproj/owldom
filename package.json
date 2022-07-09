@@ -2,7 +2,7 @@
   "name": "owldom",
   "version": "1.0.2",
   "description": "Do not mess with DOM/Markups",
-  "main": "index.js",
+  "main": "owldom.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
